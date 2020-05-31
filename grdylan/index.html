@@ -126,9 +126,9 @@ body {
       <h2>没有邮箱？试试gitalk！</h2>
             <center><strong>留言区</strong></center>
 <center>如果进入聊天区的时候显示<strong>Error:Network error</strong>，请过10分钟后再试</center>
-<!-- Gitalk 评论 start  -->
+
 {% if site.gitalk.enable %}
-<!-- Link Gitalk 的支持文件  -->
+
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
@@ -136,25 +136,18 @@ body {
     <script type="text/javascript">
     var gitalk = new Gitalk({
 
-    // gitalk的主要参数
-        clientID: `Github Application clientID`,
-        clientSecret: `Github Application clientSecret`,
-        repo: `存储你评论 issue 的 Github 仓库名`,
-        owner: 'Github 用户名',
-        admin: ['Github 用户名'],
-        id: '页面的唯一标识，gitalk会根据这个标识自动创建的issue的标签',
+        clientID: `4ae1d80d97e8f4af99fb`,
+        clientSecret: `95d8b89c56d8b09e2319fb9eab1c29403efe5e7c`,
+        repo: `dylanwei2020.github.io`,
+        owner: 'dylanwei2020',
+        admin: ['dylanwei2020'],
+        id: '留言1服',
     
     });
     gitalk.render('gitalk-container');
 </script>
 {% endif %}
-<!-- Gitalk end -->
 
-作者：BYQiu
-链接：https://www.jianshu.com/p/78c64d07124d
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
-            
   </div>
   </div>
 
